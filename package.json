@@ -1,0 +1,16 @@
+{
+  "name": "pluginhunter",
+  "version": "1.0.0",
+  "description": "A Cumcord plugin hunter powered by double square brackets.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beef",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "node-fetch": "^3.1.0"
+  }
+}
