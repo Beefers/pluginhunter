@@ -35,6 +35,9 @@ client.once("ready", () => {
                 );
             }
         }
+
+        if(foundEmbeds.length === 0) return;
+
         message.reply({ embeds: foundEmbeds });
     });
 });
